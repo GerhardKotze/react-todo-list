@@ -1,8 +1,15 @@
 import React, {Component} from 'react'
+import TextInput from './TextInput'
 
 class App extends Component {
     render() {
-        return <div>THIS IS DEF A HOT (module reloading) REACT APP NOW </div>
+        return  ( 
+            <div>
+                <h1>This is the App component</h1>
+                <TextInput/>
+            </div>
+
+        )
     }
 }
 
